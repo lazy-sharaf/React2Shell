@@ -19,6 +19,19 @@ python exploit.py -t https://example.com -c "id"
 python exploit.py -f targets.txt
 ```
 
+## Installation
+```bash
+# Clone the repo
+git clone https://github.com/lazy-sharaf/React2Shell.git
+cd React2Shell
+
+# Install dependencies (Python 3.9+)
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt  # if present
+# or install directly
+python -m pip install requests
+```
+
 ## Usage
 ```
 usage: exploit.py [-h] [-t URL] [-c CMD] [-f FILE]
